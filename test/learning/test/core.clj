@@ -7,3 +7,6 @@
 
 (deftest fibonacci-test
 	(is (= (fib 3) [0 1 1])))
+
+(deftest another-fib-test
+	(is (= (fib 5) [0 1 1 2 3])))
